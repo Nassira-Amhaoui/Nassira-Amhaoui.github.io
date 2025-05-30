@@ -216,21 +216,29 @@ section{
     color: white;
     background-color: #64ffda;
     filter: drop-shadow(0 0 10px #64ffda);
+}.cv-button {
+  display: inline-block;
+  width: 40%;
+  height: 6vh;
+  margin: 30px;
+  background-color: #64ffda;
+  color: white;
+  border: none;
+  outline: none;
+  font-size: 100%;
+  font-weight: 700;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 6vh; /* pour centrer verticalement le texte */
+  text-decoration: none; /* enlever le soulignement */
+  transition: 0.2s linear;
 }
-.content button{
-    width: 40%;
-    height: 6vh;
-    margin: 30px;
-    background-color: #64ffda;
-    color: white;
-    border: none;
-    outline: none;
-    font-size: 100%;
-    font-weight: 700;
-    border-radius: 5px;
-    transition: 0.2s linear;
+
+.cv-button:hover {
+  background-color: #52d9b8;
 }
-.content button:hover{
+
+.cv-button:hover{
  scale: 1.1;
  color: rgb(6, 1, 48);
  border: 2px solid rgb(75, 73, 206);
