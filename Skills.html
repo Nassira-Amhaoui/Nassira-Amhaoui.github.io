@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Skills - Nassira Portfolio</title>
+  <link rel="stylesheet" href="Style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+  <nav>
+    <div class="nav-container">
+      <div class="logo" data-aos="zoom-in" data-aos-duration="1000">
+        <span>Nassira Amhaoui</span>
+      </div>
+      <div class="links">
+        <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100"><a href="index.html">Home</a></div>
+        <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200"><a href="about.html">About</a></div>
+        <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300"><a href="Skills.html">Skills</a></div>
+        <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400"><a href="Projects.html">Projects</a></div>
+        <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500"><a href="Experiences.html">Experiences</a></div>
+        <div class="link contact-btn" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600"><a href="Contact.html">Contact Us</a></div>
+      </div>
+      <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+    </div>
+    <div class="dropdown">
+      <div class="links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="Skills.html">Skills</a>
+        <a href="Projects.html">Projects</a>
+        <a href="Experiences.html">Experiences</a>
+        <a href="Contact.html">Contact Us</a>
+        <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+      </div>
+    </div>
+  </nav>
+
+  <section class="skills-section">
+    <div class="container">
+      <h2 class="section-title" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="800">My Skills</h2>
+      <div class="skills-grid">
+        <div class="left-column">
+          <!-- Hard Skills -->
+          <div class="skills-column1" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="800">
+            <h3>Hard Skills</h3>
+            <h4>Description Languages</h4>
+            <div class="skills-row">
+              <div class="skill">
+                <span><i class="fab fa-html5"></i> HTML</span>
+                <div class="progress-bar"><div class="progress" style="width: 90%;">90%</div></div>
+              </div>
+              <div class="skill">
+                <span><i class="fab fa-css3-alt"></i> CSS</span>
+                <div class="progress-bar"><div class="progress" style="width: 85%;">85%</div></div>
+              </div>
+            </div>
+
+            <h4>Modeling Languages</h4>
+            <div class="skills-row">
+              <div class="skill">
+                <span><i class="fas fa-project-diagram"></i> UML</span>
+                <div class="progress-bar"><div class="progress" style="width: 90%;">90%</div></div>
+              </div>
+              <div class="skill">
+                <span><i class="fas fa-cogs"></i> SysML</span>
+                <div class="progress-bar"><div class="progress" style="width: 85%;">85%</div></div>
+              </div>
+            </div>
+
+            <h4>Programming Languages</h4>
+            <div class="skills-row">
+              <div class="skill">
+                <span><i class="fab fa-js-square"></i> JavaScript</span>
+                <div class="progress-bar"><div class="progress" style="width: 75%;">75%</div></div>
+              </div>
+              <div class="skill">
+                <span><i class="fab fa-java"></i> Java</span>
+                <div class="progress-bar"><div class="progress" style="width: 70%;">70%</div></div>
+              </div>
+            </div>
+
+            <div class="skills-row">
+              <div class="skill">
+                <span><i class="fab fa-python"></i> Python</span>
+                <div class="progress-bar"><div class="progress" style="width: 75%;">75%</div></div>
+              </div>
+              <div class="skill">
+                <span><i class="fas fa-code"></i> C</span>
+                <div class="progress-bar"><div class="progress" style="width: 70%;">70%</div></div>
+              </div>
+            </div>
+
+            <div class="skills-row">
+              <div class="skill">
+                <span><i class="fas fa-code"></i> C++</span>
+                <div class="progress-bar"><div class="progress" style="width: 75%;">75%</div></div>
+              </div>
+              <div class="skill">
+                <span><i class="fas fa-microchip"></i> Assembleur</span>
+                <div class="progress-bar"><div class="progress" style="width: 40%;">40%</div></div>
+              </div>
+            </div>
+
+            <div class="skills-row">
+              <div class="skill">
+                <span><i class="fas fa-database"></i> SQL</span>
+                <div class="progress-bar"><div class="progress" style="width: 40%;">40%</div></div>
+              </div>
+              <div class="skill">
+                <span><i class="fas fa-terminal"></i> Shell</span>
+                <div class="progress-bar"><div class="progress" style="width: 40%;">40%</div></div>
+              </div>
+            </div>
+            <h4>Frameworks & Libraries</h4>
+              <div class="circle-container1">
+
+                <div class="circle-skill1" style="--percent: 90;" data-percent="90">
+                  <i class="fab fa-python"></i>
+                  <span>Django</span>
+                </div>
+
+                <div class="circle-skill1" style="--percent: 85;" data-percent="85">
+                  <i class="fab fa-node"></i>
+                  <span>Node.js</span>
+                </div>
+
+                <div class="circle-skill1" style="--percent: 80;" data-percent="80">
+                  <i class="fas fa-desktop"></i> <!-- Icône adaptée pour JavaFX (application desktop) -->
+                  <span>JavaFX</span>
+                </div>
+                
+                <div class="circle-skill1" style="--percent: 75;" data-percent="75">
+                  <i class="fas fa-calculator"></i> <!-- Icône représentative pour NumPy (calculs numériques) -->
+                  <span>NumPy</span>
+                </div>
+                
+
+                <div class="circle-skill1" style="--percent: 70;" data-percent="70">
+                  <i class="fas fa-eye"></i>
+                  <span>OpenCV</span>
+                </div>
+
+                <div class="circle-skill1" style="--percent: 80;" data-percent="80">
+                  <i class="fas fa-table"></i>
+                  <span>Pandas</span>
+                </div>
+
+              </div>
+              <h4>Databases</h4>
+
+              <div class="skill">
+                <span><i class="fas fa-database"></i> MySQL</span>
+                <div class="progress-bar1">
+                  <div class="progress1" style="width: 80%;">80%</div>
+                </div>
+              </div>
+              
+              <div class="skill">
+                <span><i class="fas fa-database"></i> SQLite</span>
+                <div class="progress-bar1">
+                  <div class="progress1" style="width: 75%;">75%</div>
+                </div>
+              </div>
+              
+              <div class="skill">
+                <span><i class="fas fa-cloud"></i> Firebase Realtime Database</span>
+                <div class="progress-bar1">
+                  <div class="progress1" style="width: 70%;">70%</div>
+                </div>
+              </div>
+              
+              
+
+            <!-- Tools Section -->
+            <h4>IDE</h4>
+            <div class="tools-row" >
+              <div class="tool"><img src="Media/android_studio.png" alt="Android Studio" class="tool-logo"><p>Android Studio</p></div>
+              <div class="tool"><img src="Media/Annaconda.png" alt="Anaconda" class="tool-logo"><p>Anaconda</p></div>
+              
+              <div class="tool"><img src="Media/Node.PNG" alt="Visual Studio" class="tool-logo"><p>Node Red</p></div>
+              
+              <div class="tool"><img src="Media/papyrus.png" alt="Papyrus" class="tool-logo"><p>Papyrus</p></div>
+              <div class="tool"><img src="Media/Thonny.JPG" alt="Thonny" class="tool-logo"><p>Thonny</p></div>
+              <div class="tool"><img src="Media/Gerber.JPG" alt="Gerber" class="tool-logo"><p>Gerber Accumark</p></div>
+              
+            </div>
+          </div>
+        </div>
+
+        <div class="right-column" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="800">
+          <!-- Soft Skills -->
+          <div class="skills-column2" >
+            <h3>Soft Skills</h3>
+            <div class="circle-container">
+              <!-- Tu peux répéter le bloc ci-dessous pour chaque compétence -->
+              <div class="circle-box">
+                <div class="circle" data-percent="95">
+                  <svg>
+                    <circle cx="70" cy="70" r="60"></circle>
+                    <circle cx="70" cy="70" r="60" class="progress-circle"></circle>
+                  </svg>
+                  <div class="circle-text">95%</div>
+                </div>
+                <div class="label">Teamwork</div>
+              </div>
+              <div class="circle-box">
+                <div class="circle" data-percent="95">
+                  <svg>
+                    <circle cx="70" cy="70" r="60"></circle>
+                    <circle cx="70" cy="70" r="60" class="progress-circle"></circle>
+                  </svg>
+                  <div class="circle-text">80%</div>
+                </div>
+                <div class="label">Creativity</div>
+              </div>
+              <div class="circle-box">
+                <div class="circle" data-percent="95">
+                  <svg>
+                    <circle cx="70" cy="70" r="60"></circle>
+                    <circle cx="70" cy="70" r="60" class="progress-circle"></circle>
+                  </svg>
+                  <div class="circle-text">75%</div>
+                </div>
+                <div class="label">Adaptability</div>
+              </div>
+              <div class="circle-box">
+                <div class="circle" data-percent="95">
+                  <svg>
+                    <circle cx="70" cy="70" r="60"></circle>
+                    <circle cx="70" cy="70" r="60" class="progress-circle"></circle>
+                  </svg>
+                  <div class="circle-text">70%</div>
+                </div>
+                <div class="label">Leadership</div>
+              </div>
+              <div class="circle-box">
+                <div class="circle" data-percent="95">
+                  <svg>
+                    <circle cx="70" cy="70" r="60"></circle>
+                    <circle cx="70" cy="70" r="60" class="progress-circle"></circle>
+                  </svg>
+                  <div class="circle-text">95%</div>
+                </div>
+                <div class="label">Communication</div>
+              </div>
+              <div class="circle-box">
+                <div class="circle" data-percent="95">
+                  <svg>
+                    <circle cx="70" cy="70" r="60"></circle>
+                    <circle cx="70" cy="70" r="60" class="progress-circle"></circle>
+                  </svg>
+                  <div class="circle-text">85%</div>
+                </div>
+                <div class="label">Autonomy</div>
+              </div>
+            </div>
+          </div>
+          <div class="skills-column3" >
+            <h3 class="certificates-title" >Certifications</h3>
+            <div class="certificates-section" >
+              
+              <div class="certificates-gallery">
+                <div class="certificate-card">
+                  <img src="Media/certf-python.JPG" alt="Certification Python Developer">
+                  <div class="certificate-info">
+                    <h4>Python-Intermediate</h4>
+                    <strong>
+                      Earned on SoloLearn, this certificate validates my mastery of both fundamental and advanced Python concepts, a key language for software development, automation, and data science</strong>
+                  </div>
+                  
+                  </div>
+                </div>              
+              </div>
+              
+          
+            <div class="certificates-section"> 
+              <div class="certificates-gallery">
+                <div class="certificate-card">
+                  <img src="Media/OOP.png" alt="Certification 1">
+                  <div class="certificate-info">
+                    <h4>Certificate-OOP</h4>
+                    <strong>
+                      Validated skills in designing and implementing modular, reusable code using core OOP principles such as encapsulation, inheritance, and polymorphism.</strong>
+                  </div>
+                </div>               
+              </div> 
+            </div>
+            <div class="certificates-section"> 
+              <div class="certificates-gallery">
+                <div class="certificate-card">
+                  <img src="Media/CRTF.png" alt="Certification 1">
+                  <div class="certificate-info">
+                    <h4>Certificate-IA</h4>
+                    <p>Leveraged artificial intelligence techniques to analyze market trends, extract insights from large datasets, and build predictive models for forecasting consumer behavior, pricing, and demand patterns.</p>
+                  </div>
+                </div>               
+              </div> 
+            </div>
+
+
+            <a href="https://www.credly.com/users/nassira-amhaoui" target="_blank"><i class="fas fa-external-link-alt"></i> view others certifications</a>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+<script>
+  // Animation des cercles
+  const circles = document.querySelectorAll('.circle');
+
+  circles.forEach(circle => {
+    const progressCircle = circle.querySelector('.progress-circle');
+    const radius = progressCircle.r.baseVal.value;
+    const circumference = 2 * Math.PI * radius;
+    const percent = circle.getAttribute('data-percent');
+
+    progressCircle.style.strokeDasharray = `${circumference} ${circumference}`;
+    progressCircle.style.strokeDashoffset = circumference;
+
+    setTimeout(() => {
+      const offset = circumference - (percent / 100) * circumference;
+      progressCircle.style.strokeDashoffset = offset;
+    }, 500);
+  });
+</script>
+<script>
+  window.addEventListener('load', () => {
+    const progresses = document.querySelectorAll('.progress');
+
+    progresses.forEach(progress => {
+      const targetWidth = parseInt(progress.style.width); // lire la width finale
+      progress.style.width = '0%'; // démarrer à 0
+
+      let current = 0;
+      const speed = 1; // vitesse de progression (peut ajuster)
+
+      const interval = setInterval(() => {
+        if (current >= targetWidth) {
+          clearInterval(interval);
+          progress.innerText = targetWidth + '%'; // afficher le bon pourcentage à la fin
+        } else {
+          current++;
+          progress.style.width = current + '%';
+          progress.innerText = current + '%';
+        }
+      }, 15); // 15ms entre chaque étape
+    });
+  });
+</script>
+
+<script>
+  function hamburg() {
+    const navbar = document.querySelector(".dropdown");
+    navbar.style.transform = "translateY(0px)";
+  }
+
+  function cancel() {
+    const navbar = document.querySelector(".dropdown");
+    navbar.style.transform = "translateY(-500px)";
+  }
+</script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({ offset: 0 });
+  </script>
+</body>
+</html>
