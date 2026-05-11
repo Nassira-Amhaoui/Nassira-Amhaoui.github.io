@@ -1226,7 +1226,7 @@ circle:first-child {
 .point4 {
   position: absolute;
   left: 50%;              /* Centre horizontalement sur la ligne */
-  top: 800px;               /* Centre verticalement par rapport à la carte */
+  top: 850px;               /* Centre verticalement par rapport à la carte */
   transform: translate(-50%, -50%);  /* Ajuste pour que le point soit centré */
   width: 16px;
   height: 16px;
@@ -1240,7 +1240,7 @@ circle:first-child {
 .point5 {
   position: absolute;
   left: 50%;              /* Centre horizontalement sur la ligne */
-  top: 1070px;               /* Centre verticalement par rapport à la carte */
+  top: 1100px;               /* Centre verticalement par rapport à la carte */
   transform: translate(-50%, -50%);  /* Ajuste pour que le point soit centré */
   width: 16px;
   height: 16px;
@@ -1254,7 +1254,7 @@ circle:first-child {
 .point6 {
   position: absolute;
   left: 50%;              /* Centre horizontalement sur la ligne */
-  top: 1330px;               /* Centre verticalement par rapport à la carte */
+  top: 1380px;               /* Centre verticalement par rapport à la carte */
   transform: translate(-50%, -50%);  /* Ajuste pour que le point soit centré */
   width: 16px;
   height: 16px;
@@ -1264,6 +1264,149 @@ circle:first-child {
   z-index: 1;
   box-shadow: 0 0 10px #00ffe7;
 }
+.point7{
+  position: absolute;
+  left: 50%;              /* Centre horizontalement sur la ligne */
+  top: 1680px;               /* Centre verticalement par rapport à la carte */
+  transform: translate(-50%, -50%);  /* Ajuste pour que le point soit centré */
+  width: 16px;
+  height: 16px;
+  background-color: #010e0c;
+  border: 3px solid #0a192f;
+  border-radius: 50%;
+  z-index: 1;
+  box-shadow: 0 0 10px #00ffe7;
+}
+ /* ===== HERO HEADER ===== */
+    .activities-hero {
+      background: #0a192f;
+      text-align: center;
+      padding: 5rem 2rem 2rem;
+      position: relative;
+    }
 
+    .activities-hero::after {
+      content: '';
+      display: block;
+      width: 80px;
+      height: 3px;
+      background: linear-gradient(to right, transparent, #00ffe7, transparent);
+      margin: 1.5rem auto 0;
+      box-shadow: 0 0 8px #00ffe7;
+      border-radius: 2px;
+    }
+
+    .activities-hero h1 {
+      font-family: 'Segoe UI', sans-serif;
+      font-size: 2.6rem;
+      color: #00ffe7;
+      letter-spacing: 0.06em;
+      margin-bottom: 0.6rem;
+    }
+
+    .activities-hero p {
+      color: #7a9bbf;
+      font-size: 1rem;
+      font-family: 'Segoe UI', sans-serif;
+      max-width: 520px;
+      margin: 0 auto;
+      line-height: 1.7;
+    }
+
+    /* ===== GRID ===== */
+    .extra-section {
+      background: #0a192f;
+      padding: 3rem 2rem 6rem;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    .extra-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.8rem;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    /* ===== CARDS ===== */
+    .extra-card {
+      background: #0d2137;
+      border-radius: 18px;
+      overflow: hidden;
+      border: 1px solid rgba(0, 255, 231, 0.1);
+      box-shadow: 0 0 18px rgba(0, 255, 231, 0.07);
+      transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+      cursor: pointer;
+    }
+
+    .extra-card:hover {
+      transform: translateY(-10px) scale(1.02);
+      box-shadow: 0 0 32px rgba(0, 255, 231, 0.25), 0 12px 35px rgba(0,0,0,0.4);
+      border-color: rgba(0, 255, 231, 0.38);
+    }
+
+    .extra-card img {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+      display: block;
+      filter: brightness(0.8);
+      transition: filter 0.35s ease;
+    }
+
+    .extra-card:hover img {
+      filter: brightness(1.05);
+    }
+
+    .extra-content {
+      padding: 1.3rem 1.5rem 1.6rem;
+    }
+
+    .extra-content h3 {
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: #00ffe7;
+      margin-bottom: 0.3rem;
+      line-height: 1.4;
+    }
+
+    .extra-date {
+      font-size: 0.78rem;
+      color: #4a8fff;
+      display: block;
+      margin-bottom: 0.7rem;
+      font-weight: 500;
+      letter-spacing: 0.03em;
+    }
+
+    .extra-content p {
+      font-size: 0.9rem;
+      line-height: 1.7;
+      color: #bcd0e0;
+      margin-bottom: 0.9rem;
+    }
+
+    .extra-tag {
+      display: inline-block;
+      padding: 0.24rem 0.75rem;
+      border-radius: 20px;
+      font-size: 0.72rem;
+      border: 1px solid rgba(0, 255, 231, 0.3);
+      color: #00ffe7;
+      background: rgba(0, 255, 231, 0.05);
+      letter-spacing: 0.04em;
+    }
+
+    .extra-tag i {
+      margin-right: 5px;
+      font-size: 0.68rem;
+    }
+
+    /* ===== RESPONSIVE ===== */
+    @media (max-width: 600px) {
+      .activities-hero h1 { font-size: 1.8rem; }
+      .extra-grid { grid-template-columns: 1fr; }
+      .extra-card img { height: 180px; }
+    }
 
 
